@@ -11,7 +11,6 @@ This project implements a U-Net deep learning model for the segmentation of bloo
 - [File Structure](#file-structure)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
     - [Dataset](#dataset)
 - [Usage](#usage)
     - [Data Preparation](#data-preparation)
@@ -59,15 +58,6 @@ Before you begin, ensure you have the following installed:
 
 It is highly recommended to have a CUDA-enabled GPU for faster training.
 
-### Installation
-
-1.  **Clone the repository**
-    
-2.  **Install the required Python packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(You should create a `requirements.txt` file in the root directory by running `pip freeze > requirements.txt` after installing all the prerequisites).*
 
 ### Dataset
 
