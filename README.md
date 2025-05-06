@@ -63,7 +63,7 @@ It is highly recommended to have a CUDA-enabled GPU for faster training.
 
 This project is designed to work with a dataset of retinal images and their corresponding vessel segmentations. The code in `data.py` assumes a specific directory structure (e.g., `/content/small-retina/`).
 
--   ** ✅ Prepare your dataset: ** Organize your retinal images and their ground truth masks into the following structure (or modify the `load_data` function in `data.py` to match your structure):
+-   **✅ Prepare your dataset: ** Organize your retinal images and their ground truth masks into the following structure (or modify the `load_data` function in `data.py` to match your structure):
 
     ```
     your_dataset_path/
