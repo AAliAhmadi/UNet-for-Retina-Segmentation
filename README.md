@@ -28,4 +28,13 @@ This project implements a U-Net deep learning model for the segmentation of bloo
 This project leverages the U-Net architecture, a popular convolutional neural network designed for biomedical image segmentation. The model is trained on a dataset of retinal images with corresponding ground truth vessel segmentations. The goal is to accurately identify and delineate blood vessels in new, unseen retinal images.
 
 ## File Structure
-
+```
+retinal_segmentation/
+├── model.py          # Defines the U-Net model architecture.
+├── utils.py          # Contains utility functions (seeding, directory creation, loss functions, etc.).
+├── data.py           # Handles data loading, augmentation, and the custom Dataset class.
+├── train.py          # Script for training the U-Net model.
+├── test.py           # Script for evaluating the trained model on the test set.
+└── init.py       # Makes 'retinal_segmentation' a Python package.
+README.md             # This file.
+```
