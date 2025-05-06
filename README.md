@@ -101,7 +101,7 @@ The `data.py` script handles data loading and augmentation. The `augment_data` f
 
 The `train.py` script trains the U-Net model.
 
--   **✅ Run the training script:**
+-   ** Run the training script:**
     ```bash
     python retinal_segmentation/train.py
     ```
@@ -169,4 +169,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ---
 
-Feel free to customize this `README.md` further with more details specific to your project, such as performance metrics on your dataset, visualizations of the model architecture, or links to relevant resources. Good luck with your project!
+👍 Feel free to customize this `README.md` further with more details specific to your project, such as performance metrics on your dataset, visualizations of the model architecture, or links to relevant resources. Good luck with your project! 
