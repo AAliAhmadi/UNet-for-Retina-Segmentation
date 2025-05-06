@@ -97,7 +97,7 @@ The `data.py` script handles data loading and augmentation. The `augment_data` f
     ```
     This will create augmented data in a new directory (`/content/drive/MyDrive/new_retinal_data/` by default). **Make sure to adjust the `output_dir` variable in `data.py` if needed.**
 
-###⚙️ Training the Model
+### ⚙️ Training the Model
 
 The `train.py` script trains the U-Net model.
 
