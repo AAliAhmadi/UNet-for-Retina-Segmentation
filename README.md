@@ -61,12 +61,8 @@ It is highly recommended to have a CUDA-enabled GPU for faster training.
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <YOUR_REPOSITORY_URL>
-    cd <YOUR_REPOSITORY_NAME>
-    ```
-
+1.  **Clone the repository**
+    
 2.  **Install the required Python packages:**
     ```bash
     pip install -r requirements.txt
@@ -75,7 +71,7 @@ It is highly recommended to have a CUDA-enabled GPU for faster training.
 
 ### Dataset
 
-This project is designed to work with a dataset of retinal images and their corresponding vessel segmentations. The code in `data.py` assumes a specific directory structure (e.g., `/content/drive/MyDrive/small-retina/`).
+This project is designed to work with a dataset of retinal images and their corresponding vessel segmentations. The code in `data.py` assumes a specific directory structure (e.g., `/content/small-retina/`).
 
 -   **Prepare your dataset:** Organize your retinal images and their ground truth masks into the following structure (or modify the `load_data` function in `data.py` to match your structure):
 
