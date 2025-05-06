@@ -22,11 +22,11 @@ This project implements a U-Net deep learning model for the segmentation of bloo
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
-## Introduction
+## Introduction 🎉
 
 This project leverages the U-Net architecture, a popular convolutional neural network designed for biomedical image segmentation. The model is trained on a dataset of retinal images with corresponding ground truth vessel segmentations. The goal is to accurately identify and delineate blood vessels in new, unseen retinal images.
 
-## File Structure
+## File Structure 🛠️
 ```
 retinal_segmentation/
 ├── model.py          # Defines the U-Net model architecture.
@@ -39,9 +39,9 @@ retinal_segmentation/
 ```
 
 
-## Getting Started
+## Getting Started 🚀
 
-### Prerequisites
+### Prerequisites 👇
 
 Before you begin, ensure you have the following installed:
 
@@ -59,11 +59,11 @@ Before you begin, ensure you have the following installed:
 It is highly recommended to have a CUDA-enabled GPU for faster training.
 
 
-### Dataset
+### Dataset 🌎
 
 This project is designed to work with a dataset of retinal images and their corresponding vessel segmentations. The code in `data.py` assumes a specific directory structure (e.g., `/content/small-retina/`).
 
--   **Prepare your dataset:** Organize your retinal images and their ground truth masks into the following structure (or modify the `load_data` function in `data.py` to match your structure):
+-   ** ✅ Prepare your dataset: ** Organize your retinal images and their ground truth masks into the following structure (or modify the `load_data` function in `data.py` to match your structure):
 
     ```
     your_dataset_path/
@@ -97,11 +97,11 @@ The `data.py` script handles data loading and augmentation. The `augment_data` f
     ```
     This will create augmented data in a new directory (`/content/drive/MyDrive/new_retinal_data/` by default). **Make sure to adjust the `output_dir` variable in `data.py` if needed.**
 
-### Training the Model
+###⚙️ Training the Model
 
 The `train.py` script trains the U-Net model.
 
--   **Run the training script:**
+-   **✅ Run the training script:**
     ```bash
     python retinal_segmentation/train.py
     ```
@@ -113,7 +113,7 @@ The `train.py` script trains the U-Net model.
     -   Save the best model weights (based on validation loss) to the `checkpoint_path`.
     -   Generate a plot of the training and validation loss.
 
-### Testing/Inference
+### ✅ Testing/Inference
 
 The `test.py` script evaluates the trained model on the test set.
 
@@ -129,11 +129,11 @@ The `test.py` script evaluates the trained model on the test set.
     -   Save visual results (original image, ground truth mask, predicted mask) in the `results_dir`.
     -   Display a sample visualization of a prediction.
 
-## Results
+## ✨ Results
 
 After running `test.py`, you will find the evaluation metrics printed in the console. Additionally, visual results of the segmentation will be saved in the `results/` directory within your specified `data_path`.
 
-## Hyperparameters
+## ✨ Hyperparameters
 
 The following hyperparameters can be found and adjusted in the `train.py` script:
 
@@ -145,7 +145,7 @@ The following hyperparameters can be found and adjusted in the `train.py` script
 -   `data_path`: Path to the root of your dataset (default: `/content/drive/MyDrive/small-retina/`).
 -   `output_dir`: Path to save augmented data and results (default: `/content/drive/MyDrive/new_retinal_data`).
 
-## Contributing
+## 🌳 Contributing
 
 Contributions to this project are welcome! If you have suggestions, bug reports, or would like to add new features, please:
 
@@ -161,7 +161,7 @@ Please ensure your code follows the existing style and includes appropriate comm
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more details. *(You should create a `LICENSE` file in the root directory with the MIT license text).*
 
-## Acknowledgments
+## 🌳 Acknowledgments
 
 -   The U-Net architecture was originally proposed by Olaf Ronneberger, Philipp Fischer, and Thomas Brox in the paper: *U-Net: Convolutional Networks for Biomedical Image Segmentation*.
 -   We acknowledge the use of libraries such as PyTorch, NumPy, OpenCV, Albumentations, and Scikit-learn, which greatly facilitated the development of this project.
